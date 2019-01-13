@@ -28,4 +28,5 @@ class FenwickTree {
 		for (; i < (int) ft.size(); i += LSOne(i))
 			ft.set(i, ft.get(i) + v);
 	}
+	//XD
 }
